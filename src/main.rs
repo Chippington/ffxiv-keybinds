@@ -15,7 +15,7 @@ impl Bindings {
             KeybdKey::LShiftKey,
         ];
 
-        println!("Press moust button to bind them:");
+        println!("Press mouse button to bind them to the modifier key shown:");
         println!("{}: ", to_bind[0].to_string());
         Bindings { to_bind, next: 0 }
     }
